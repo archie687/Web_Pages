@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Candidate Search</h1>
+    </header>
+    <!-- <img src="recruiting-email-templates-2.jpg" alt="" > -->
+
+    <main>
+        <div class="search-container">
+            <h2>Search Candidates</h2>
+            <form id="searchForm">
+                <label for="location">Location:</label>
+                <input type="text" id="location">
+                <label for="jobRole">Job Role:</label>
+                <input type="text" id="jobRole">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+
+        <div class="candidates-container">
+            <h2>Fetched Candidates</h2>
+            <ul id="candidatesList"></ul>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

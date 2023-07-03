@@ -1,0 +1,167 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  /* Example styles for header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Example styles for hero section */
+  .hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* Example styles for main section */
+  main {
+    padding: 40px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .feature img {
+    width: 100px;
+    margin-right: 20px;
+  }
+  
+  .feature h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .testimonial img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .testimonial p {
+    margin-bottom: 10px;
+  }
+  
+  /* Example styles for contact section */
+  section#contact form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  section#contact label,
+  section#contact input,
+  section#contact textarea {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  section#contact button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  section#contact button:hover {
+    background-color: #555;
+  }
+  
+  /* Example styles for footer */
+  footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+    color: #555;
+  }
+  
